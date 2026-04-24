@@ -2,7 +2,15 @@
 
 ---
 
-## v0.9 — Height Correction & Simplified Trailer Selection
+## v0.5 — Auto-Optimize
+**Date:** 2026-04-24
+
+### Added
+- **Auto-Optimize button** — added to the Trailer Views toolbar alongside Reset Layout. Runs a Bottom-Left Fill algorithm with rotation support: sorts pallets by floor area (largest first), then places each one at the lowest-X, lowest-Y valid position, trying both orientations. Goal is to minimize total linear feet used. Pallets that cannot fit are marked overflow.
+
+---
+
+## v0.4.3 — Height Correction & Simplified Trailer Selection
 **Date:** 2026-04-23
 
 ### Changed
@@ -11,7 +19,7 @@
 
 ---
 
-## v0.8 — Diamond Line Branding, Side View Fixes & Stack Dividers
+## v0.4.2 — Diamond Line Branding, Side View Fixes & Stack Dividers
 **Date:** 2026-03-31
 
 ### Added
@@ -24,7 +32,7 @@
 
 ---
 
-## v0.5 — Stacking Fix, View Alignment, Trailer Selector & Layered Side View
+## v0.4.1 — Stacking Fix, View Alignment, Trailer Selector & Layered Side View
 **Date:** 2026-03-31
 
 ### Fixed
